@@ -1,0 +1,19 @@
+@font-face {
+  font-family: Game of Thrones;
+  src: url(/public/fonts/Game_of_Thrones.ttf);
+}
+
+.house-container {
+  text-align: center;
+  padding: 2rem;
+}
+
+.house-container h3 {
+  font-family: "Game of Thrones", serif;
+  color: #3f3f3f;
+  font-size: 2rem;
+  font-weight: 400;
+  display: inline-block;
+  border-bottom: 0.25rem solid;
+  padding-bottom: 0.5rem;
+}
