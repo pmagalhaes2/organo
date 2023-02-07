@@ -1,3 +1,4 @@
+import { Character } from "../Character";
 import "./House.css";
 
 export const House = (props) => {
@@ -6,7 +7,8 @@ export const House = (props) => {
       className="house-container"
       style={{ backgroundColor: props.secondary }}
     >
-      <h3 style={{borderColor: props.primary}}>{props.name}</h3>
+      <h3 style={{ borderColor: props.primary }}>{props.name}</h3>
+      <Character />
     </section>
   );
 };
