@@ -5,18 +5,6 @@ import { Button } from "../Button";
 import { useState } from "react";
 
 export const Form = (props) => {
-  const houses = [
-    "",
-    "Arryn",
-    "Baratheon",
-    "Greyjoy",
-    "Lannister",
-    "Martell",
-    "Stark",
-    "Targaryen",
-    "Tully",
-    "Tyrell",
-  ];
 
   const [nome, setNome] = useState("");
   const [cargo, setCargo] = useState("");
@@ -57,7 +45,7 @@ export const Form = (props) => {
         />
         <Dropdown
           label="Casa"
-          items={houses}
+          items={props.houses}
           value={casa}
           handleChange={(value) => setCasa(value)}
         />
