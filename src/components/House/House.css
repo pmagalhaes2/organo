@@ -5,7 +5,7 @@
 
 .house-container {
   text-align: center;
-  padding: 2rem;
+  padding: 2rem 4rem;
 }
 
 .house-container h3 {
@@ -16,4 +16,12 @@
   display: inline-block;
   border-bottom: 0.25rem solid;
   padding-bottom: 0.5rem;
+}
+
+.character-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  margin-top: 2rem;
+  gap: 5rem 2rem; 
 }

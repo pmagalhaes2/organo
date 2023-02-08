@@ -9,7 +9,9 @@
 }
 
 .image-container img {
-  width: 7rem;
+  width: 7.5rem;;
+  height: 7.5rem;
+  object-fit: cover; 
   border-radius: 50%;
   position: relative;
   bottom: -50px;

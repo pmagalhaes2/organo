@@ -8,7 +8,15 @@ export const House = (props) => {
       style={{ backgroundColor: props.secondary }}
     >
       <h3 style={{ borderColor: props.primary }}>{props.name}</h3>
-      <Character />
+      <div className="character-container">
+        {props.characters.map((character) => (
+          <Character
+            image={character.imagem}
+            name={character.nome}
+            headOffice={character.sede}
+          />
+        ))}
+      </div>
     </section>
   );
 };
