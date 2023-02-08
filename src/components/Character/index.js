@@ -1,9 +1,9 @@
 import "./Character.css";
 
-export const Character = ({name, image, headOffice}) => {
+export const Character = ({name, image, headOffice, backgroundColor}) => {
   return (
     <div className="card-container">
-      <div className="image-container">
+      <div className="image-container" style={{ backgroundColor: backgroundColor}}>
         <img
           src={image}
           alt={name}

@@ -15,6 +15,8 @@ export const House = (props) => {
               image={character.imagem}
               name={character.nome}
               headOffice={character.sede}
+              key={character.nome}
+              backgroundColor={props.primary}
             />
           ))}
         </div>

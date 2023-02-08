@@ -9,6 +9,7 @@ export const Dropdown = (props) => {
     <div className="dropdown-container">
       <label>{props.label}</label>
       <select onChange={handleClick} value={props.value} required>
+        <option value=""></option>
         {props.items.map((item) => (
           <option key={item}>{item}</option>
         ))}
