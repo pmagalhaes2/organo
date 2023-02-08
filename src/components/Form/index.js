@@ -7,7 +7,7 @@ import { useState } from "react";
 export const Form = (props) => {
 
   const [nome, setNome] = useState("");
-  const [cargo, setCargo] = useState("");
+  const [sede, setSede] = useState("");
   const [imagem, setImagem] = useState("");
   const [casa, setCasa] = useState("");
 
@@ -15,7 +15,7 @@ export const Form = (props) => {
     e.preventDefault();
     props.handleRegister({
       nome,
-      cargo,
+      sede,
       imagem,
       casa,
     });
@@ -34,8 +34,8 @@ export const Form = (props) => {
         <Input
           label="Sede"
           placeholder="Digite a sede da Casa"
-          value={cargo}
-          handleChange={(value) => setCargo(value)}
+          value={sede}
+          handleChange={(value) => setSede(value)}
         />
         <Input
           label="Imagem"
