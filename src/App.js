@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Banner } from "./components/Banner";
+import { Footer } from "./components/Footer";
 import { Form } from "./components/Form";
 import { House } from "./components/House";
 
@@ -19,7 +20,7 @@ function App() {
   const [personagens, setPersonagens] = useState([]);
 
   const register = (personagem) => {
-    setPersonagens([...personagens, personagem]); 
+    setPersonagens([...personagens, personagem]);
   };
   return (
     <div className="App">
@@ -35,10 +36,12 @@ function App() {
           key={house.name}
           primary={house.primary}
           secondary={house.secondary}
-          characters={personagens.filter(personagem => personagem.casa === house.name)}
+          characters={personagens.filter(
+            (personagem) => personagem.casa === house.name
+          )}
         />
       ))}
-
+      <Footer />
     </div>
   );
 }
