@@ -41,16 +41,13 @@ This project was developed using the following technologies:
 <img src='https://img.shields.io/badge/Git-E34F26?style=for-the-badge&logo=git&logoColor=white'
 /></a>
 
-<a href='https://www.netlify.com/' target="_blank">
-<img src='https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white'
-/></a>
 
 ---
 
-## 📋 Referências 
+## 📋 References 
 
 - [Figma prototype](https://www.figma.com/file/QZ9B32bjz7KdFsEONpZj7H/Organo-Project?node-id=134%3A128&t=paS0yqaz9sJiBT6c-1)
-- [Website](https://desafio-lacrei-five.vercel.app/)
+- [Website](https://organo-gamma-lime.vercel.app/)
 
 ---
 
