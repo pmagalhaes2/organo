@@ -5,7 +5,6 @@ import { Button } from "../Button";
 import { useState } from "react";
 
 export const Form = (props) => {
-
   const [nome, setNome] = useState("");
   const [sede, setSede] = useState("");
   const [imagem, setImagem] = useState("");
@@ -19,6 +18,12 @@ export const Form = (props) => {
       imagem,
       casa,
     });
+
+    // Atualizando o estado para vazio após criação do Personagem
+    setNome("");
+    setSede("")
+    setImagem("")
+    setCasa("")
   };
 
   return (
