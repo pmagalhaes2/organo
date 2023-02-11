@@ -19,7 +19,7 @@ Nice things that could be learned from this project:
 ---
 ## 📱Behavior
 
-![Image](https://github.com/pmagalhaes2/organo/blob/main/src/assets/organo.gif?raw=true)
+![Image](./src/assets/organo.gif)
 
 ---
 
