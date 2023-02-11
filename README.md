@@ -17,6 +17,11 @@ Nice things that could be learned from this project:
 - Forms.
 
 ---
+## 📱Behavior
+
+![Image](https://github.com/pmagalhaes2/organo/blob/main/src/assets/organo.gif?raw=true)
+
+---
 
 ## 🚀 Technologies
 
